@@ -10,6 +10,7 @@
 
 <body>
     <h1>All posts</h1>
+    <a href="/posts/create">Create Posts</a>
     <ul>
         @foreach ($allPosts as $post)
             <li>
@@ -19,6 +20,8 @@
             </li>
         @endforeach
     </ul>
+
+    <a href="create.blade.php">Bebr</a>
 </body>
 
 </html>
